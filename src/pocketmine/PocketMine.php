@@ -452,7 +452,7 @@ namespace pocketmine {
 	}
 
 	if(\Phar::running(true) === ""){
-		$logger->warning("Non-packaged PocketMine-Steadfast installation detected, do not use on production.");
+		$logger->warning("Running server from source file. Use dev tools to compile the server for better performance");
 	}
 
 	ThreadManager::init();
