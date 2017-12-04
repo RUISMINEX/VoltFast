@@ -47,7 +47,7 @@ class VersionCommand extends VanillaCommand{
 		if (!empty($version)) {
 			$output .= $version . ". ";
 		}
-		$output .= "This server is running " . $sender->getServer()->getName() . " " . $sender->getServer()->getPocketMineVersion();
+		$output .= "This server is running PocketMine-VoltFast version" . $sender->getServer()->getPocketMineVersion();
 
 		$sender->sendMessage($output);
 //		if(count($args) === 0){
