@@ -121,9 +121,9 @@ class HelpCommand extends VanillaCommand{
 				$aPlugin = $a->getPlugin()->getName();
 				$bPlugin = $b->getPlugin()->getName();
 				if ($aPlugin !== $bPlugin) {
-					if ($aPlugin == 'LbCore') {
+					if ($aPlugin == 'VCORE') {
 						return 1;
-					} elseif ($bPlugin == 'LbCore') {
+					} elseif ($bPlugin == 'VCORE') {
 						return -1;
 					}
 				}
